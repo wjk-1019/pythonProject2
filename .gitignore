@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Models (大文件，不上传到 GitHub)
+models/*.pt
+models/*.bin
+models/*.pth
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# LanceDB 数据库文件（大文件）
+my_lancedb/*.lance/
+my_lancedb/*.lance
+*.lance/
+*.lance
+
+# 数据文件（视频和图片太大，不上传）
+data/*/
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+data/**/*.mkv
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.gif
+
+# 但保留数据目录结构说明
+!data/README.md
+
+# 输出文件（可选择性上传）
+output/*.json
+output/*.txt
+output/*.csv
+
+# 评估结果（HTML 文件可以上传）
+evaluation_results/*.html
+evaluation_results/*.json
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# 备份文件
+*.backup
+*.bak
+*.old
+
+# 编译文件
+*.pyc
+*.pyo
+
+# PDF 文件（如果包含敏感信息）
+*.pdf
+
+# 大型测试文件
+test_data/
+tmp/
+temp/
